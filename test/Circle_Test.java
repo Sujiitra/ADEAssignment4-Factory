@@ -10,15 +10,19 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
+ * Test class for the circle class,
+ * creates a test draw method,
+ * assert equals when the method called, it returns cicle,
+ * assert not equals when the method called, it returns draw,
+ * assert same when the method called, it returns the same circle value
+ *
  */
 public class Circle_Test {
     
     public Circle_Test() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
+    
     Circle c=new Circle();
     @Test
     public void draw_test() {

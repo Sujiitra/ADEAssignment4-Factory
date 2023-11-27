@@ -7,6 +7,11 @@ package factorypattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Factory Design Pattern demo,
+ * has main method,
+ * creates an object of shape factory,
+ * calls the draw methods
+ * 
  */
 public class DesignPatterDemo1 {
 
@@ -15,7 +20,6 @@ public class DesignPatterDemo1 {
      */
     // Factory Pattern Demo
     public static void main(String[] args) {
-        // TODO code application logic here
         ShapeFactory shapeFactory= new ShapeFactory(); //Creates an Object
         Shape shape1=shapeFactory.getShape("Circle");
         shape1.draw(); 

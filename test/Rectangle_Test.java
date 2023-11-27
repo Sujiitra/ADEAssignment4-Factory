@@ -10,15 +10,16 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
+ *  Test class for the Rectangle class,
+ * creates a test draw method,
+ * assert equals when the method called, it returns Rectangle,
+ * assert not equals when the method called, it returns draw,
+ * assert same when the method called, it returns the same Rectangle value
  */
 public class Rectangle_Test {
     
     public Rectangle_Test() {
     }
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
     
     Rectangle r=new Rectangle();
     @Test

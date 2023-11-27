@@ -7,6 +7,11 @@ package factorypattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Square class implements Shape interface,
+ * draw method is overriden,
+ * prints the shape,
+ * returns the string square
+ * 
  */
 public class Square implements Shape{
     @Override

@@ -7,6 +7,7 @@ package factorypattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Shape interface is created with draw method
  */
 public interface Shape {
     String draw(); //Interface method

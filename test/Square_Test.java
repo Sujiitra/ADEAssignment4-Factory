@@ -10,15 +10,18 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
+ * Test class for the Square class,
+ * creates a test draw method,
+ * assert equals when the method called, it returns Square,
+ * assert not equals when the method called, it returns draw,
+ * assert same when the method called, it returns the same Square value
+ * 
  */
 public class Square_Test {
     
     public Square_Test() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
     Square s=new Square();
     @Test
     public void draw_test() {

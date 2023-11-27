@@ -7,6 +7,10 @@ package factorypattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Circle class implements Shape interface,
+ * draw method is overriden,
+ * prints the shape,
+ * returns the string circle
  */
 public class Circle implements Shape{
     @Override

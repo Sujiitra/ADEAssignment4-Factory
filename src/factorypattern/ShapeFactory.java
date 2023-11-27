@@ -7,8 +7,11 @@ package factorypattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Shape factory class is created,
+ * gets the shape value
+ * 
  */
-//Factory Pattern Demo
+
 public class ShapeFactory {
     //Gets the shape
     public Shape getShape(String shapeType){

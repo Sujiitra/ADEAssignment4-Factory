@@ -7,6 +7,11 @@ package factorypattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Rectangle class implements Shape interface,
+ * draw method is overriden,
+ * prints the shape,
+ * returns the string rectangle
+ * 
  */
 public class Rectangle implements Shape{
     @Override
